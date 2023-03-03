@@ -7,7 +7,7 @@
 
 const msalConfig = {
     auth: {
-        clientId: "devops-js-app", // This is the ONLY mandatory field that you need to supply.
+        clientId: "4d9879a9-1114-4ef2-b71b-1dd4f57c3be9", // This is the ONLY mandatory field that you need to supply.
         authority: "https://login.microsoftonline.com/fcfb053f-3c75-42ff-8552-cc451be4c168", // Defaults to "https://login.microsoftonline.com/common"
         redirectUri: "http://localhost:8081", // You must register this URI on Azure Portal/App Registration. Defaults to window.location.href
         postLogoutRedirectUri: "http://localhost:8081", // Simply remove this line if you would like navigate to index page after logout.

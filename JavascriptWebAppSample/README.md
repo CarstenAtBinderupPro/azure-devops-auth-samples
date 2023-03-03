@@ -46,7 +46,7 @@ npm install
 Open the project in your IDE (like Visual Studio or Visual Studio Code) to configure the code.
 
 > In the steps below, "ClientID" is the same as "Application ID" or "AppId".
-
+ 
 1. Open the `config.js` file
 1. Find the key `Enter_the_Application_Id_Here` and replace the existing value with the application ID (clientId) of the `devops-js-app` application copied from the Azure portal.
 1. Find the key `https://login.microsoftonline.com/Enter_the_Tenant_Info_Here` and replace the existing value with `https://login.microsoftonline.com/<your-tenant-id>`.
